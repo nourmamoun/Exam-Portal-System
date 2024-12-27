@@ -1,0 +1,49 @@
+body {
+    font-family: "Roboto Condensed", serif;
+}
+
+.fname_lname {
+    margin-top: 50px;
+    display: flex;
+    justify-content: start;
+}
+
+input {
+    width: 400px;
+    height: 40px;
+    margin-right: 50px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid purple;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+input:focus {
+    border: 1px solid purple;
+    color: purple;
+    box-shadow: 0 0 20px rgb(171, 73, 171);
+    border-radius: 10px;
+}
+
+
+.registeration_inputs {
+    text-align: left;
+    line-height: 30px;
+}
+
+.registeration-form {
+    position: fixed;
+    padding-top: 5%;
+    display: none;
+    top: 8.5%;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
+}
+
+span {
+    font-size: 15px;
+    color: red;
+    display: none;
+}

@@ -1,0 +1,27 @@
+/* standard button design */
+
+.btn_design {
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid purple;
+    background-color: rgb(171, 73, 171);
+    color: white;
+    font-size: 16px;
+
+}
+
+.btn_design:hover {
+    background-color: white;
+    border: 1px solid purple;
+    color: purple;
+    box-shadow: 0 0 20px rgb(171, 73, 171);
+    cursor: pointer;
+
+}
+
+.btn_design:disabled {
+    background-color: rgb(115, 48, 115);
+    cursor: not-allowed;
+    color: white;
+}

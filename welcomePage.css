@@ -1,0 +1,8 @@
+body {
+    background-image: url("images/background.jpg");
+}
+
+p {
+    line-height: 80%;
+    font-weight: 250;
+}

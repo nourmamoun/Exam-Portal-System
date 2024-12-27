@@ -1,0 +1,17 @@
+body {
+    background-image: url("/images/background.jpg");
+}
+
+.design-container {
+    position: fixed;
+    text-align: left;
+    justify-content: start;
+    padding: 7%;
+    top: 10%;
+}
+
+.design-text {
+    font-size: 130%;
+    font-weight: 120;
+    word-spacing: 7px;
+}

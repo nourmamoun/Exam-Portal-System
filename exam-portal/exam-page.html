@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam</title>
+    <link rel="stylesheet" href="../constant_designs/mainDivDesign.css">
+    <link rel="stylesheet" href="../constant_designs/textDesigns.css">
+    <link rel="stylesheet" href="../constant_designs/btnDesign.css">
+    <link rel="stylesheet" href="exam-design.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playwrite+CO+Guides&family=Playwrite+IE+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="exam-info ">
+        <div class="student-name" id="student_data">
+            <h4>Mock Exam 1</h4>
+        </div>
+        <div class="timer_container" id="timer">
+
+        </div>
+        <div>
+            <hr>
+        </div>
+        <div>
+            <p>Question</p>
+            <p id="questions_number"> 1 / 10</p>
+        </div>
+    </div>
+
+    <div class=" design-container design-text">
+        <div id="titleQuestion"> What is the o/p </div>
+        <div><img id="imgQuestion" src="/exam-portal/examImages/1.png" alt=""></div>
+        <div class="bullet-design">
+            <ol type="a" id="options">
+                <li> option 1 </li>
+                <li> option 2</li>
+                <li> option 3</li>
+                <li> option 4</li>
+            </ol>
+        </div>
+
+        <div class=" buttons-toggle ">
+            <div>
+                <button class="btn_design" id="next-btn" disabled>Next Question➡️</button>
+                <button class="btn_design" id="finish-btn" disabled>finish</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="design-container design-text score-container ">
+        <div class="score-shape" id="shapeBorder">
+            <p id="score_percentage">90%</p>
+        </div>
+        <div id="score-data">
+            <p id="score_number">you score 1/10</p>
+        </div>
+    </div>
+
+    <script src="js/examData.js"></script>
+    <script src="js/functionality.js"></script>
+    <script src="js/functions.js"></script>
+
+</body>
+
+</html>

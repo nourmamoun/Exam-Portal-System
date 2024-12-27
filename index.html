@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Portal</title>
+    <link rel="stylesheet" href="constant_designs/mainDivDesign.css">
+    <link rel="stylesheet" href="constant_designs/textDesigns.css">
+    <link rel="stylesheet" href="constant_designs/btnDesign.css">
+    <link rel="stylesheet" href="welcomePage.css">
+    <link rel="stylesheet" href="form/registerationPage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playwrite+CO+Guides&family=Playwrite+IE+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="design-container">
+        <div class="design-text">
+            <h2>Welcome to the Exam Portal </h2>
+            <p>Your journey of knowledge and achievement begins here! </p>
+            <p> Get ready to showcase your skills. Remember, every challenge is an opportunity to grow.</p>
+            <p> Best of luck!</p>
+            <br><br>
+            <h4>Please Click Here to Enter Your Name to Proceed.</h4>
+            <button class="btn_design" id="registeration-btn">Register Here</button>
+        </div>
+    </div>
+
+    <div class="registeration-form design-container design-text">
+        <div class="registeration_inputs">
+            <h2>Registeration Form</h2>
+            <form action="">
+
+                <div class="fname_lname">
+                    <div>
+                        <label for="fname">First Name*</label><br>
+                        <input type="text" name="fname" value="" required placeholder="Enter Your Name Here"><br>
+                        <span id="fnameError">not a valid name</span>
+
+                    </div>
+                    <div>
+                        <label for="lname">Last Name*</label><br>
+                        <input type="text" name="lname" value="" required placeholder="Enter Your Name Here"><br>
+                        <span id="lnameError">not a valid name</span>
+
+                    </div>
+                </div>
+                <br>
+                <label for="email">E-mail*</label><br>
+                <input type="email" value="" name="email" required placeholder="Enter Your email Here"><br>
+                <span id="emailError">not a valid email</span>
+                <div>
+                    <br><br>
+                    <button class="btn_design" id="registerationData-btn">Register</button>
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="form/js/functionForm.js"></script>
+    <script src="form/js/form.js"></script>
+</body>
+
+</html>

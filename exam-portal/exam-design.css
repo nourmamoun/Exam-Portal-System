@@ -1,0 +1,110 @@
+body {
+    background-image: url("/images/background.jpg");
+}
+
+.design-container {
+    top: 13%;
+    bottom: 9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 6%;
+}
+
+.exam-info {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1%;
+    padding-bottom: 2%;
+    gap: 9%;
+    margin-left: 11%;
+    width: 1051px;
+}
+
+.timer_container {
+    margin-top: 3.5%;
+    background-color: green;
+    width: 600px;
+    height: 15px;
+    border-radius: 30%;
+}
+
+hr {
+    height: 50px;
+    border: 1.5px solid rgb(181, 181, 181);
+}
+
+ol {
+    margin-left: 350px;
+    margin-right: 0px;
+    position: fixed;
+}
+
+.bullet-design {
+    text-align: start;
+}
+
+img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 12px rgb(11, 12, 17);
+}
+
+.buttons-toggle {
+    margin-top: 30px;
+    text-align: right;
+}
+
+li:hover {
+    background-color: purple;
+    border-radius: 10%;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+li.active {
+    background-color: purple;
+    border-radius: 7%;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+li.disabled {
+    background-color: lightgray;
+    color: black;
+    font-weight: 2;
+    border-radius: 2%;
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+#finish-btn {
+    display: none;
+}
+
+.score-container {
+    display: none;
+    justify-content: center;
+    text-align: center;
+}
+
+#shapeBorder {
+    margin-left: 39%;
+    margin-bottom: 3%;
+    flex-wrap: wrap;
+    border: 15px solid green;
+    border-radius: 100%;
+    width: 20%;
+    height: 30%;
+}
+
+#score_percentage {
+    justify-self: center;
+    margin-top: 20%;
+    font-size: 30px;
+    font-style: italic;
+}
