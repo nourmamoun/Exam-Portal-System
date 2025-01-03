@@ -7,7 +7,6 @@
     const getFname = document.querySelector("input[name=fname]");
     const getLname = document.querySelector("input[name=lname]");
     const getEmail = document.querySelector("input[name=email]");
-    //try to catch student name
 
     //popup registeration form
     openRegisterationBtn.addEventListener("click",function () {

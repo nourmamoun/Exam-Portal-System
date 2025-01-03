@@ -1,5 +1,4 @@
 /* standard div design */
-
 .design-container {
     background-color: rgb(250, 250, 250);
     position: fixed;
@@ -13,5 +12,4 @@
     border-radius: 20px;
     border: 1px solid purple;
     box-shadow: 0 0px 25px rgb(171, 73, 171);
-
 }
