@@ -16,4 +16,3 @@
 ### Applications:  
 - Ideal for schools, universities, and mock tests, enabling efficient online assessments.  
 
-This project showcases technology's role in creating reliable and accessible exam solutions.
